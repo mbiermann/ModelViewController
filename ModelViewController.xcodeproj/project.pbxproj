@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F26778AB3214801C4E351A9 /* libPods-ModelViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CF3087051162A430B82F86 /* libPods-ModelViewController.a */; };
 		875E8F621AB32A84002AB3AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E8F611AB32A84002AB3AC /* main.m */; };
 		875E8F651AB32A84002AB3AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E8F641AB32A84002AB3AC /* AppDelegate.m */; };
-		875E8F681AB32A84002AB3AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E8F671AB32A84002AB3AC /* ViewController.m */; };
 		875E8F6B1AB32A84002AB3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875E8F691AB32A84002AB3AC /* Main.storyboard */; };
 		875E8F6D1AB32A84002AB3AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875E8F6C1AB32A84002AB3AC /* Images.xcassets */; };
 		875E8F701AB32A84002AB3AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875E8F6E1AB32A84002AB3AC /* LaunchScreen.xib */; };
 		875E8F7C1AB32A84002AB3AC /* ModelViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E8F7B1AB32A84002AB3AC /* ModelViewControllerTests.m */; };
+		875E8F891AB32B60002AB3AC /* MCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E8F881AB32B60002AB3AC /* MCTableViewController.m */; };
+		875E8F8C1AB32C25002AB3AC /* MCProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E8F8B1AB32C25002AB3AC /* MCProductTableViewCell.m */; };
+		875E8F911AB33382002AB3AC /* MCProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E8F901AB33382002AB3AC /* MCProduct.m */; };
+		875E8F991AB3348A002AB3AC /* MCProductListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E8F981AB3348A002AB3AC /* MCProductListManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C73501CE00BFE473ECAC29F /* Pods-ModelViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModelViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModelViewController/Pods-ModelViewController.release.xcconfig"; sourceTree = "<group>"; };
+		72CF3087051162A430B82F86 /* libPods-ModelViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModelViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875E8F5C1AB32A84002AB3AC /* ModelViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875E8F601AB32A84002AB3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		875E8F611AB32A84002AB3AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		875E8F631AB32A84002AB3AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		875E8F641AB32A84002AB3AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		875E8F661AB32A84002AB3AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		875E8F671AB32A84002AB3AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		875E8F6A1AB32A84002AB3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		875E8F6C1AB32A84002AB3AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		875E8F6F1AB32A84002AB3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		875E8F751AB32A84002AB3AC /* ModelViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		875E8F7A1AB32A84002AB3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		875E8F7B1AB32A84002AB3AC /* ModelViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelViewControllerTests.m; sourceTree = "<group>"; };
+		875E8F871AB32B60002AB3AC /* MCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTableViewController.h; sourceTree = "<group>"; };
+		875E8F881AB32B60002AB3AC /* MCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTableViewController.m; sourceTree = "<group>"; };
+		875E8F8A1AB32C25002AB3AC /* MCProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProductTableViewCell.h; sourceTree = "<group>"; };
+		875E8F8B1AB32C25002AB3AC /* MCProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProductTableViewCell.m; sourceTree = "<group>"; };
+		875E8F8E1AB33360002AB3AC /* MCProductListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProductListDataSource.h; sourceTree = "<group>"; };
+		875E8F8F1AB33382002AB3AC /* MCProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProduct.h; sourceTree = "<group>"; };
+		875E8F901AB33382002AB3AC /* MCProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProduct.m; sourceTree = "<group>"; };
+		875E8F971AB3348A002AB3AC /* MCProductListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProductListManager.h; sourceTree = "<group>"; };
+		875E8F981AB3348A002AB3AC /* MCProductListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProductListManager.m; sourceTree = "<group>"; };
+		99D89AE184349D5556BA20AD /* Pods-ModelViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModelViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModelViewController/Pods-ModelViewController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F26778AB3214801C4E351A9 /* libPods-ModelViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +75,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C77029D3D8E66773EC0D402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72CF3087051162A430B82F86 /* libPods-ModelViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		875E8F531AB32A84002AB3AC = {
 			isa = PBXGroup;
 			children = (
 				875E8F5E1AB32A84002AB3AC /* ModelViewController */,
 				875E8F781AB32A84002AB3AC /* ModelViewControllerTests */,
 				875E8F5D1AB32A84002AB3AC /* Products */,
+				E664A057F9860E7C91C6C81C /* Pods */,
+				4C77029D3D8E66773EC0D402 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +108,11 @@
 			children = (
 				875E8F631AB32A84002AB3AC /* AppDelegate.h */,
 				875E8F641AB32A84002AB3AC /* AppDelegate.m */,
-				875E8F661AB32A84002AB3AC /* ViewController.h */,
-				875E8F671AB32A84002AB3AC /* ViewController.m */,
+				875E8F961AB3346F002AB3AC /* Manager */,
+				875E8F951AB3344C002AB3AC /* Interface */,
+				875E8F941AB3342F002AB3AC /* Controller */,
+				875E8F931AB3342B002AB3AC /* View */,
+				875E8F921AB33423002AB3AC /* Model */,
 				875E8F691AB32A84002AB3AC /* Main.storyboard */,
 				875E8F6C1AB32A84002AB3AC /* Images.xcassets */,
 				875E8F6E1AB32A84002AB3AC /* LaunchScreen.xib */,
@@ -119,6 +147,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		875E8F921AB33423002AB3AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				875E8F8F1AB33382002AB3AC /* MCProduct.h */,
+				875E8F901AB33382002AB3AC /* MCProduct.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		875E8F931AB3342B002AB3AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				875E8F8A1AB32C25002AB3AC /* MCProductTableViewCell.h */,
+				875E8F8B1AB32C25002AB3AC /* MCProductTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		875E8F941AB3342F002AB3AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				875E8F871AB32B60002AB3AC /* MCTableViewController.h */,
+				875E8F881AB32B60002AB3AC /* MCTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		875E8F951AB3344C002AB3AC /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				875E8F8E1AB33360002AB3AC /* MCProductListDataSource.h */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		875E8F961AB3346F002AB3AC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				875E8F971AB3348A002AB3AC /* MCProductListManager.h */,
+				875E8F981AB3348A002AB3AC /* MCProductListManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		E664A057F9860E7C91C6C81C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99D89AE184349D5556BA20AD /* Pods-ModelViewController.debug.xcconfig */,
+				5C73501CE00BFE473ECAC29F /* Pods-ModelViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 875E8F7F1AB32A84002AB3AC /* Build configuration list for PBXNativeTarget "ModelViewController" */;
 			buildPhases = (
+				51788194408F8586B70F578A /* Check Pods Manifest.lock */,
 				875E8F581AB32A84002AB3AC /* Sources */,
 				875E8F591AB32A84002AB3AC /* Frameworks */,
 				875E8F5A1AB32A84002AB3AC /* Resources */,
+				385CCB7AA534C0DBFFEC5692 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +297,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		385CCB7AA534C0DBFFEC5692 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModelViewController/Pods-ModelViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51788194408F8586B70F578A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		875E8F581AB32A84002AB3AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875E8F681AB32A84002AB3AC /* ViewController.m in Sources */,
+				875E8F891AB32B60002AB3AC /* MCTableViewController.m in Sources */,
+				875E8F991AB3348A002AB3AC /* MCProductListManager.m in Sources */,
 				875E8F651AB32A84002AB3AC /* AppDelegate.m in Sources */,
 				875E8F621AB32A84002AB3AC /* main.m in Sources */,
+				875E8F8C1AB32C25002AB3AC /* MCProductTableViewCell.m in Sources */,
+				875E8F911AB33382002AB3AC /* MCProduct.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +460,7 @@
 		};
 		875E8F801AB32A84002AB3AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D89AE184349D5556BA20AD /* Pods-ModelViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ModelViewController/Info.plist;
@@ -351,6 +471,7 @@
 		};
 		875E8F811AB32A84002AB3AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C73501CE00BFE473ECAC29F /* Pods-ModelViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ModelViewController/Info.plist;
@@ -412,6 +533,7 @@
 				875E8F811AB32A84002AB3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		875E8F821AB32A84002AB3AC /* Build configuration list for PBXNativeTarget "ModelViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +542,7 @@
 				875E8F841AB32A84002AB3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

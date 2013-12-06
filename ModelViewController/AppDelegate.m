@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MCTableViewController.h"
+#import "MCProductListManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIViewController *rootViewController = self.window.rootViewController;
+    NSAssert([rootViewController isMemberOfClass:MCTableViewController.class], @"Unexpected root view controller type");
+    
+    MCProductListManager *manager = [[MCProductListManager alloc] init];
+    NSAssert(!!manager, @"Unexpected failed creation of product list manager");
+    
+    if ([rootViewController isMemberOfClass:MCTableViewController.class] && !!manager) {
+        [((MCTableViewController *)rootViewController) setProductListDataSource:manager];
+    }
+    
     return YES;
 }
 
